@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/CPS5002.iml" filepath="$PROJECT_DIR$/.idea/CPS5002.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/CPS5005-classes.iml" filepath="$PROJECT_DIR$/.idea/CPS5005-classes.iml" />
+>>>>>>> 09caba3eaffac9aa8438df8bce76f67902f3a22a
     </modules>
   </component>
 </project>
