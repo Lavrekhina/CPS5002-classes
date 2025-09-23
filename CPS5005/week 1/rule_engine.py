@@ -12,10 +12,10 @@ class RuleEngine():
         return "Default"
 
 engine = RuleEngine()
-engine.add_rule(lambda x: x < 12570, "Tax rate - 0%")
-engine.add_rule(lambda x: 12571 <= x < 50270, "Tax rate - 20%")
-engine.add_rule(lambda x: 50271 <= x < 125140, "Tax Rate - 40%")
-engine.add_rule(lambda x: x > 125140, "Tax Rate - 45%")
+engine.add_rule(lambda x: x < 12570, "Tax rate - 0%, Personal Allowance")
+engine.add_rule(lambda x: 12571 <= x < 50270, "Tax rate - 20%, Basic rate")
+engine.add_rule(lambda x: 50271 <= x < 125140, "Tax Rate - 40%, Higher rate")
+engine.add_rule(lambda x: x > 125140, "Tax Rate - 45%, Additional rate")
 
 
 result = engine.apply_rules(12510)
