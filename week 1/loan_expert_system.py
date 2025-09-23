@@ -34,7 +34,7 @@ discount_system.add_purchase("Books", 50)
 
 # Define rules for discount eligibility based on overall purchase amount
 discount_system.add_rule("10% Off Electronics", 500)
-discount_system.add_rule("20% Off Clothing", 100)
+discount_system.add_rule("20% Off ", 100)
 
 # Check discount eligibility
 result = discount_system.check_discount_eligibility("10% Off Electronics")
