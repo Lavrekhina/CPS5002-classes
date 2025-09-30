@@ -17,7 +17,6 @@ class TechSupportExpertSystem:
         return "No specific solution found for the reported issue."
 
 
-# Пример использования
 tech_support_system = TechSupportExpertSystem()
 
 tech_support_system.add_rule(["Performance"], "Clear temporary files and optimize settings.")
