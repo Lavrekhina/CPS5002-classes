@@ -1,0 +1,2 @@
+GRID_ROWS = 10
+GRID_COLS = 10
